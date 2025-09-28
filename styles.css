@@ -81,3 +81,23 @@ main {
     font-size: x-large;
 }
 
+/* ABOUT US page */
+
+.about {
+    background-image: url(assets/images/dinosaur1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center 60%;
+    position: relative;
+}
+
+.about-text {
+    font-size: x-large;
+    text-align: center;
+    width: 1000px;
+    margin-left: 150px;
+    color: white;
+    position: absolute;
+}
+
