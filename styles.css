@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: green;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: rgb(20, 211, 147);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar li {
+    float: left;
+}
