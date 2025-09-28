@@ -101,3 +101,51 @@ main {
     position: absolute;
 }
 
+/* PARTNERS page */
+
+.partners {
+    background-image: url(assets/images/dinosaur2.png);
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.first {
+    text-align: center;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 600px;
+    position: absolute;
+}
+
+.first h3 {
+    font-size: xx-large;
+    margin: 10;
+    padding: 0;
+}
+
+.first p {
+    font-size: x-large;
+
+}
+
+.second {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 180px;
+    margin-left: 650px;
+    width: 600px;
+    position: absolute;
+}
+
+.second h3 {
+    font-size: xx-large
+}
+
+.second p {
+    font-size: x-large;
+}
+
