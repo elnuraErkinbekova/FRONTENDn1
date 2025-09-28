@@ -1,7 +1,19 @@
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
+main {
+    background-image: url(assets/images/dinosaur.png);
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* navbar */
 .navbar ul {
     list-style-type: none;
     background-color: green;
@@ -27,3 +39,45 @@ body {
 .navbar li {
     float: left;
 }
+
+/* WHAT DO WE DO  section */
+
+.do {
+    text-align: center;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 600px;
+    position: absolute;
+}
+
+.do h3 {
+    font-size: xx-large;
+    margin: 10;
+    padding: 0;
+}
+
+.do p {
+    font-size: x-large;
+
+}
+
+/* WHAT DO WE USE section */
+
+.use {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 200px;
+    margin-left: 650px;
+    width: 600px;
+    position: absolute;
+}
+
+.use h3 {
+    font-size: xx-large
+}
+
+.use p {
+    font-size: x-large;
+}
+
